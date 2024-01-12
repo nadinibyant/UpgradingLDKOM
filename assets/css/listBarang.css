@@ -1,0 +1,99 @@
+
+.container {
+    margin: auto;
+    width: 50%;
+    margin-top: 2%;
+}
+
+.tambah{
+    float: right;
+    margin-bottom: 5%;
+}
+
+.btnTambah{
+    padding: 10px;
+    border: 0px;
+    background-color: #286C43;
+    color: white;
+    border-radius: 10px;
+}
+
+.btnTambah a{
+    text-decoration: none;
+    color: white;
+}
+
+.listBarang{
+    margin-top: 4%;
+}
+
+table{
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+
+th, td{
+    border: 1px solid black;
+}
+
+th{
+    padding: 2%;
+    background-color: #F2EEE3;
+    color: #785E4D;
+}
+
+th:first-child{
+    width: 10%;
+}
+
+th:nth-child(2){
+    width: 20%;
+}
+
+
+th:nth-child(3), th:nth-child(4), th:nth-child(5){
+    width: 15%;
+}
+
+th:last-child{
+    width: 35%;
+}
+
+td{
+    border-top: none;
+    border-bottom: none;
+    font-weight: 400;
+}
+
+.btnAksi li{
+    display: inline-block;
+    text-decoration: none;
+    text-align: start;
+    width: 100%;
+    
+}
+
+.btnAksi button {
+    margin-right: 4%;
+    border: 0px;
+    padding: 5%;
+    border-radius: 10px;
+    color: white;
+}
+
+.edit{
+    background-color: #FFA215;
+}
+
+.hapus{
+    background-color: #C52B2B;
+}
+
+.edit a, .hapus a{
+    text-decoration: none;
+    color: white;
+}
+
+
+
